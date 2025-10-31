@@ -1,0 +1,163 @@
+/* Personal Website Styles */
+
+/* Import custom fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Arial&family=Times+New+Roman&display=swap');
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+/* Simple Navigation */
+nav {
+    background-color: #ddd;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #666;
+}
+
+/* Main Container */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+/* Basic Typography */
+h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 2.5rem;
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 1.3rem;
+    color: #555;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Simple Image Styles */
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #999;
+}
+
+.content-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+}
+
+/* Basic List Styles */
+ul, ol {
+    margin: 15px 0;
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #e0e0e0;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.contact-links {
+    margin-top: 15px;
+}
+
+.contact-links a {
+    color: #0066cc;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.contact-links a:hover {
+    text-decoration: underline;
+}
+
+/* Introduction Section */
+.intro-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        margin: 10px;
+        padding: 15px;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .profile-image {
+        width: 150px;
+        height: 150px;
+    }
+}
